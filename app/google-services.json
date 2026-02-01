@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "811287483756",
+    "project_id": "schedulednotification-c7ae9",
+    "storage_bucket": "schedulednotification-c7ae9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811287483756:android:6453e2d999f2a4aefc8f49",
+        "android_client_info": {
+          "package_name": "com.example.schedulednotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRhQBIstGVjVLuXu5FjJo3RR78Qb55JZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ScheduledNotification</string>
+    <string name="default_notification_channel_id">channel_offers</string>
+</resources>
