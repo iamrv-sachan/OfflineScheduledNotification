@@ -26,7 +26,6 @@ class MyFirebaseMessageService : FirebaseMessagingService() {
 
         val title = message.data["title"]
         val description = message.data["body"]
-        Log.d(TAG, "onMessageReceived: $title   ${message.data}")
         val isScheduled = message.data["isScheduled"]?.toBoolean()
         isScheduled?.let { scheduled ->
             if (scheduled) {
@@ -53,7 +52,6 @@ class MyFirebaseMessageService : FirebaseMessagingService() {
 
         val schTime = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
             .parse(time!!)
-        Log.d(TAG, "scheduleAlarm: $schTime")
         schTime?.let {
             alarmMag.set(
                 AlarmManager.RTC_WAKEUP,
