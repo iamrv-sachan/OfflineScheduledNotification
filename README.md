@@ -65,5 +65,3 @@ The app requests the following in the `AndroidManifest.xml`:
 ## ⚠️ Important Note on Exact Alarms
 
 Starting with Android 12, if you require high-precision timing, you may need to request `android.permission.SCHEDULE_EXACT_ALARM` and check if the app has permission to use it at runtime. For general reminders, the current `AlarmManager.set()` implementation is sufficient.
-
-Would you like me to help you write the logic to check for Exact Alarm permissions for Android 13+ devices?
